@@ -1,0 +1,308 @@
+1
+00:00:01,020 --> 00:00:03,540
+bienvenidos al curso de html 5
+
+2
+00:00:03,690 --> 00:00:07,020
+como introducción hay que definir que
+
+3
+00:00:07,230 --> 00:00:10,710
+html hypertext markup language es un lenguaje
+
+4
+00:00:10,710 --> 00:00:13,800
+de marcado compuesto por elementos para presentar
+
+5
+00:00:13,800 --> 00:00:14,880
+un contenido específico
+
+6
+00:00:16,079 --> 00:00:17,910
+al ser un lenguaje marcado html
+
+7
+00:00:17,970 --> 00:00:19,970
+no se debe confundir con un lenguaje de programacion
+
+8
+00:00:19,970 --> 00:00:23,250
+marcado significa que con html
+
+9
+00:00:23,400 --> 00:00:25,620
+se declara que se presenta al usuario
+
+10
+00:00:25,770 --> 00:00:28,020
+más no como es representado ya que
+
+11
+00:00:28,080 --> 00:00:30,750
+las representaciones visuales se hacen con css
+
+12
+00:00:31,080 --> 00:00:32,580
+y son realizadas por los navegadores
+
+13
+00:00:35,040 --> 00:00:37,260
+ahora ya que sabemos que es html
+
+14
+00:00:37,260 --> 00:00:39,600
+hay que definir a los elementos
+
+15
+00:00:39,600 --> 00:00:41,160
+que componen a html
+
+16
+00:00:42,480 --> 00:00:44,490
+un documento html esta compuesto por elementos
+
+17
+00:00:44,490 --> 00:00:48,030
+donde un elemento usualmente consiste
+
+18
+00:00:48,030 --> 00:00:50,280
+en una etiqueta de entrada etiqueta de
+
+19
+00:00:50,310 --> 00:00:52,230
+cierre y entre ellas y existe un contenido
+
+20
+00:00:53,460 --> 00:00:54,630
+estas etiquetas
+
+21
+00:00:55,920 --> 00:00:58,280
+tiene una sintaxis la cual es
+
+22
+00:00:58,260 --> 00:01:01,260
+se tienen un unos corchetes angulares y dentro de
+
+23
+00:01:01,260 --> 00:01:03,420
+esos corchetes está el nombre del elemento
+
+24
+00:01:03,960 --> 00:01:05,743
+para la etiqueta de cierre además de
+
+25
+00:01:05,820 --> 00:01:06,930
+los corchetes angulares
+
+26
+00:01:07,500 --> 00:01:09,660
+al principio se tiene un slash
+
+27
+00:01:10,980 --> 00:01:12,450
+después del corchete de apertura
+
+28
+00:01:15,450 --> 00:01:17,700
+aún así hay elementos en html
+
+29
+00:01:17,700 --> 00:01:19,770
+que no siguen este patrón los cuales son
+
+30
+00:01:19,830 --> 00:01:22,680
+los elementos void estos son elementos que
+
+31
+00:01:22,680 --> 00:01:24,930
+no tienen etiqueta de cierre ni contenido
+
+32
+00:01:25,830 --> 00:01:28,980
+entre ellos se encuentran img meta link
+
+33
+00:01:28,980 --> 00:01:29,760
+o input
+
+34
+00:01:32,340 --> 00:01:34,470
+y ahora ya que sabemos lo básico
+
+35
+00:01:34,470 --> 00:01:37,320
+de html podemos empezar con el primer
+
+36
+00:01:37,410 --> 00:01:38,010
+hola mundo
+
+37
+00:01:40,920 --> 00:01:43,640
+bueno para la creación de nuestro primer hola mundo
+
+38
+00:01:43,650 --> 00:01:46,170
+se creó un archivo index.html
+
+39
+00:01:46,980 --> 00:01:49,830
+este archivo lo que contienen al principio
+
+40
+00:01:49,860 --> 00:01:51,820
+es una declaración doctype
+
+41
+00:01:53,850 --> 00:01:55,890
+esta declaración doctype lo que hace es describir
+
+42
+00:01:55,890 --> 00:01:58,139
+la versión de html que usa el documento en
+
+43
+00:01:58,139 --> 00:02:00,000
+este caso html version 5
+
+44
+00:02:01,230 --> 00:02:02,880
+después de la declaración doctype
+
+45
+00:02:02,880 --> 00:02:05,460
+se tienen las etiquetas html
+
+46
+00:02:06,930 --> 00:02:09,419
+esta como tal abre la página después
+
+47
+00:02:09,419 --> 00:02:10,735
+de la etiqueta de cierre no debe
+
+48
+00:02:10,740 --> 00:02:13,180
+haber etiquetas html
+
+49
+00:02:13,480 --> 00:02:15,600
+y en la etiqueta de apertura se tiene el atributo lang
+
+50
+00:02:17,070 --> 00:02:18,870
+en esta se declara el lenguaje primario
+
+51
+00:02:18,870 --> 00:02:21,540
+que usa el documento se usa el
+
+52
+00:02:21,540 --> 00:02:24,299
+codigo de idiomas iso 639-1
+
+53
+00:02:24,270 --> 00:02:28,310
+y en este caso se coloco ES para definir que esta en español
+
+54
+00:02:30,000 --> 00:02:31,830
+dentro de las etiquetas de html se
+
+55
+00:02:31,830 --> 00:02:35,100
+tienen una sección head que allí se
+
+56
+00:02:35,100 --> 00:02:37,590
+colocan todos los metadatos del documento
+
+57
+00:02:38,910 --> 00:02:42,960
+se colocó también la etiqueta title para
+
+58
+00:02:42,960 --> 00:02:45,750
+definir el título del documento esto se
+
+59
+00:02:45,750 --> 00:02:48,240
+va a mostrar en la pestaña de
+
+60
+00:02:48,240 --> 00:02:49,320
+la página o en la barra de
+
+61
+00:02:49,320 --> 00:02:50,310
+título del navegador
+
+62
+00:02:52,530 --> 00:02:54,810
+luego de la etiqueta head se coloca
+
+63
+00:02:54,810 --> 00:02:57,480
+la etiqueta body y aquí se va a
+
+64
+00:02:57,480 --> 00:02:58,440
+colocar todo lo que se va a
+
+65
+00:02:58,440 --> 00:03:01,590
+mostrar al usuario de ejemplo se colocará
+
+66
+00:03:02,460 --> 00:03:04,770
+un encabezado a nivel uno un h1
+
+67
+00:03:05,700 --> 00:03:06,840
+y dira hola mundo
+
+68
+00:03:09,240 --> 00:03:11,130
+y luego se colocará un párrafo
+
+69
+00:03:12,450 --> 00:03:14,550
+y dira este es mi primer documento html
+
+70
+00:03:19,350 --> 00:03:21,210
+si se abre este archivo en el navegador
+
+71
+00:03:22,350 --> 00:03:24,720
+se visualizará un
+
+72
+00:03:26,880 --> 00:03:29,579
+tamaño de fuente mayor al parrafo que
+
+73
+00:03:29,600 --> 00:03:33,787
+sería el encabezado uno y luego el
+
+74
+00:03:33,800 --> 00:03:36,122
+parrafo que se definió en el archivo que sería
+
+75
+00:03:36,120 --> 00:03:38,760
+este es mi primer documento de html
+
+76
+00:03:38,768 --> 00:03:41,569
+y así se visualizaría un hola mundo
+
+77
+00:03:41,560 --> 00:03:42,250
+en html
+

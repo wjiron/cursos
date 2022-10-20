@@ -1,0 +1,87 @@
+﻿1
+00:00:00,000 --> 00:00:03,390
+En este capítulo veremos lo que son párrafos en html,
+
+2
+00:00:04,780 --> 00:00:08,440
+el elemento p es el apropiado para distribuir o insertar cierto texto
+
+3
+00:00:08,620 --> 00:00:09,610
+en párrafos
+
+4
+00:00:09,970 --> 00:00:13,390
+sus etiqueta son etiqueta de inicio p y etiqueta de cierre p
+
+5
+00:00:14,100 --> 00:00:16,790
+y vamos a encerrar el contenido que deseamos en el párrafo.
+
+6
+00:00:18,200 --> 00:00:20,190
+Aquí tenemos un ejemplo de párrafo,
+
+7
+00:00:20,200 --> 00:00:23,100
+el cual nos mostrará en el navegador el texto que especifiquemos
+
+8
+00:00:23,440 --> 00:00:27,280
+ahora vamos a visual estudio code para que se entienda de mejor manera
+
+9
+00:00:28,270 --> 00:00:30,090
+una vez en visual Studio code
+
+10
+00:00:30,100 --> 00:00:35,280
+vamos a crear un archivo html de nombre párrafos punto html
+
+11
+00:00:35,870 --> 00:00:40,000
+vamos a especificar las estructura principal de nuestro documento html
+
+12
+00:00:40,900 --> 00:00:42,230
+como titulo párrafos 
+
+13
+00:00:43,790 --> 00:00:49,140
+en el body vamos a crear un h1 que tenga como contenido capítulo
+
+14
+00:00:50,730 --> 00:00:52,140
+parrafos
+
+15
+00:00:52,770 --> 00:00:55,100
+y ahora vamos a crear un párrafo con la etiqueta p tanto de inicio
+
+16
+00:00:56,000 --> 00:01:01,390
+como de cierre y como contenido este texto es
+
+17
+00:01:01,400 --> 00:01:01,890
+un párrafo.
+
+18
+00:01:03,760 --> 00:01:08,450
+Ahora vamos a visualizar el título y este párrafo en el navegador
+
+19
+00:01:11,600 --> 00:01:12,490
+Cómo observamos,
+
+20
+00:01:12,500 --> 00:01:15,590
+tenemos el título que tiene el capítulo párrafos y nuestro parrafo
+
+21
+00:01:15,800 --> 00:01:18,890
+que le especificamos como contenido este texto es un párrafo
+
+22
+00:01:18,900 --> 00:01:20,890
+y este es todo en este video.

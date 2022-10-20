@@ -1,0 +1,239 @@
+﻿1
+00:00:00,200 --> 00:00:04,430
+en este capítulo veremos el elemento Label en html 
+
+2
+00:00:04,560 --> 00:00:07,100
+el elemento se utiliza para hacer referencia a un elemento
+
+3
+00:00:07,200 --> 00:00:08,250
+de un formulario
+
+4
+00:00:08,340 --> 00:00:13,670
+se agrega un Label con el atributo for que tiene como  valor el ID del elemento input,
+
+5
+00:00:13,700 --> 00:00:16,980
+al cual se quiere hacer referencia sus etiquetas son 
+
+6
+00:00:17,590 --> 00:00:21,380
+etiqueta label de inicio etiqueta Label de cierre y encerrando el
+
+7
+00:00:21,400 --> 00:00:25,260
+contenido de Label ahora veremos un ejemplo en visual studio code
+
+8
+00:00:25,330 --> 00:00:28,860
+con el cual quedaremos de manera más clara una vez
+
+9
+00:00:29,000 --> 00:00:31,890
+una vez en nuestro documento html vamos a crear un elemento Label
+
+10
+00:00:33,700 --> 00:00:34,990
+Cómo contenido va a tener
+
+11
+00:00:37,100 --> 00:00:39,030
+esto es un
+
+12
+00:00:40,460 --> 00:00:41,470
+label
+
+13
+00:00:42,400 --> 00:00:45,070
+ahora veremos que nos muestren el navegador.
+
+14
+00:00:46,400 --> 00:00:50,340
+Cómo podemos ver nos muestra un texto que contiene
+
+15
+00:00:50,420 --> 00:00:51,610
+"Esto es un label"
+
+16
+00:00:52,780 --> 00:00:56,270
+ahora vamos a hacer referencia hacia un elemento de
+
+17
+00:00:56,300 --> 00:00:56,820
+input.
+
+18
+00:00:58,900 --> 00:01:01,860
+un input de tipo texto que va tener como ID 
+
+19
+00:01:03,950 --> 00:01:04,560
+label
+
+20
+00:01:07,190 --> 00:01:10,800
+Y en el for nosotros vamos a agregarle el valor
+
+21
+00:01:10,890 --> 00:01:13,370
+que tiene ID que es label
+
+22
+00:01:13,570 --> 00:01:15,880
+para hacer referencia a este input
+
+23
+00:01:16,300 --> 00:01:18,890
+vamos a ver que nos muestra en el navegador
+
+24
+00:01:19,110 --> 00:01:21,050
+y vemos que nos muestra el elemento input
+
+25
+00:01:21,270 --> 00:01:23,270
+y al lado el elemento label
+
+26
+00:01:23,470 --> 00:01:25,160
+si nosotros tocamos el label
+
+27
+00:01:25,320 --> 00:01:27,550
+nos va a redirigir al elemento input
+
+28
+00:01:28,100 --> 00:01:31,860
+es por esto que estamos referenciando a este elemento input el label
+
+29
+00:01:32,060 --> 00:01:33,430
+ahora veamos si quito
+
+30
+00:01:33,800 --> 00:01:34,190
+Sí,
+
+31
+00:01:34,200 --> 00:01:37,290
+quitó el ID del input.
+
+32
+00:01:39,760 --> 00:01:41,440
+vamos de nuevo al navegador
+
+33
+00:01:41,640 --> 00:01:43,310
+y toco el elemento label
+
+34
+00:01:43,600 --> 00:01:46,090
+no me va redirigir porque no estoy referenciando el elemento input.
+
+35
+00:01:47,100 --> 00:01:49,210
+De nuevo al visual Studio code
+
+36
+00:01:50,040 --> 00:01:54,550
+pero la forma correcta de usar los Label es en un formulario
+
+37
+00:01:54,750 --> 00:01:56,890
+porque los elementos input 
+
+38
+00:01:57,010 --> 00:01:59,560
+mayormente se ocupan en los formularios.
+
+39
+00:02:01,800 --> 00:02:04,990
+vamos hacer un que tenga nombre porque le vamos a
+
+40
+00:02:05,000 --> 00:02:08,789
+pedir que ingrese un nombre en el input
+
+41
+00:02:11,200 --> 00:02:15,790
+ahora vamos a poner el elemento input abajo
+
+42
+00:02:19,900 --> 00:02:21,740
+como ID va tener el nombre
+
+43
+00:02:25,100 --> 00:02:28,410
+entonces vamos a visualizar en el navegador
+
+44
+00:02:28,610 --> 00:02:29,800
+ingrese su nombre 
+
+45
+00:02:30,560 --> 00:02:34,280
+cómo lo mencionamos si tocamos el elemento Label nos va a redirigir
+
+46
+00:02:34,300 --> 00:02:36,390
+al input para que nosotros podamos digitar
+
+47
+00:02:38,420 --> 00:02:40,610
+vamos de nuevo al visual studio code
+
+48
+00:02:41,610 --> 00:02:44,300
+y de nuevo si yo quito el elemento id
+
+49
+00:02:44,510 --> 00:02:45,300
+atributo ID
+
+50
+00:02:46,300 --> 00:02:49,390
+me voy de nuevo al navegador sí toco el elemento label 
+
+51
+00:02:49,400 --> 00:02:51,090
+me va a redireccionar al elemento input,
+
+52
+00:02:51,100 --> 00:02:52,470
+porque no estoy haciendo referencia.
+
+53
+00:02:53,300 --> 00:02:56,290
+Así que para poder hacer eso tenemos que poner el
+
+54
+00:02:56,300 --> 00:02:56,710
+ID
+
+55
+00:03:01,300 --> 00:03:02,230
+nombre 
+
+56
+00:03:05,000 --> 00:03:07,290
+y ahora sí nos va a redirigir de nuevo al elemento input
+
+57
+00:03:07,490 --> 00:03:09,490
+para que podamos digitar
+
+58
+00:03:12,100 --> 00:03:15,990
+la forma correcta de utilizar los elementos labels a como deciamos en la
+
+59
+00:03:16,000 --> 00:03:18,690
+teoría es que vamos hacer referencia a un elemento input
+
+60
+00:03:18,700 --> 00:03:21,990
+Y esa forma correcta de usarlos es en los formularios

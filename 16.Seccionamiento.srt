@@ -1,0 +1,231 @@
+﻿1
+00:00:00,400 --> 00:00:03,640
+En este capítulo veremos el seccionamiento en htmll
+
+2
+00:00:04,010 --> 00:00:05,900
+cuando necesitamos seccionar nuestros elementos html 
+
+3
+00:00:06,600 --> 00:00:10,190
+tendremos las etiquetas semánticas que estás visualmente no nos mostrará
+
+4
+00:00:10,200 --> 00:00:13,620
+nada pero ordenaran nuestros elementos según lo que necesitemos
+
+5
+00:00:14,110 --> 00:00:18,490
+algunas de las etiqueta semántica que tenemos son nav, que representa
+
+6
+00:00:18,500 --> 00:00:22,090
+una sección de una página que enlaza a otras o a otras
+
+7
+00:00:22,100 --> 00:00:24,370
+partes dentro de una misma página 
+
+8
+00:00:25,060 --> 00:00:29,040
+header representa contenido introductorio para Su contenido de seccionamiento 
+
+9
+00:00:29,190 --> 00:00:31,860
+ubica la idea central de la página y de lo que va a contener esta
+
+10
+00:00:33,770 --> 00:00:36,690
+la etiqueta Main este elemento contiene el contenido principal 
+
+11
+00:00:37,060 --> 00:00:41,090
+de nuestra página web, es decir si tenemos en header un contenido en específico
+
+12
+00:00:41,400 --> 00:00:44,390
+nuestro main va ser el desarrollo de ese contenido en específico o va ser
+
+13
+00:00:44,400 --> 00:00:46,090
+tema principal de nuestra página web.
+
+14
+00:00:47,400 --> 00:00:51,210
+Article este elemento contiene contenido autónomo como artículos 
+
+15
+00:00:51,320 --> 00:00:55,320
+publicaciones de Blog comentarios de usuarios y entre otros 
+
+16
+00:00:56,200 --> 00:01:00,710
+etiqueta section se utiliza para representar una sección dentro de un documento
+
+17
+00:01:01,780 --> 00:01:05,239
+etiqueta footer pie de página que contiene información acerca de
+
+18
+00:01:05,500 --> 00:01:08,730
+quién lo escribió enlace a documentos y datos de derechos de autor
+
+19
+00:01:08,860 --> 00:01:11,790
+es lo usal que miramos al final de 
+
+20
+00:01:11,800 --> 00:01:12,490
+nuestra página web.
+
+21
+00:01:13,910 --> 00:01:17,490
+Ahora procederé a mostrarles lo que es ejemplo de cómo se
+
+22
+00:01:17,500 --> 00:01:19,990
+utiliza esto en visual Studio code y Cómo se representa en el navegador
+
+23
+00:01:21,920 --> 00:01:23,330
+Una vez en este visual estudio code
+
+24
+00:01:23,510 --> 00:01:25,790
+vamos a crear un archivo html y vamos a
+
+25
+00:01:25,880 --> 00:01:29,300
+poner la estructura principal de nuestro documento html y bueno
+
+26
+00:01:29,400 --> 00:01:32,010
+en el Body vamos a poner una etiqueta header 
+
+27
+00:01:34,380 --> 00:01:36,670
+la parte principal de nuestra página la que nos va a decir 
+
+28
+00:01:36,920 --> 00:01:39,750
+de qué trata nuestra página y aqui vamos a  poner un h1
+
+29
+00:01:43,670 --> 00:01:46,530
+ahora vamos a poner una etiqueta nav que esta va contener todas
+
+30
+00:01:46,610 --> 00:01:49,170
+las partes de navegación de nuestra página
+
+31
+00:01:49,700 --> 00:01:52,390
+vamos a poder dirigirnos a otras páginas o a ciertos
+
+32
+00:01:52,400 --> 00:01:55,490
+puntos dentro de nuestra página y está contiene hipervínculos.
+
+33
+00:02:07,990 --> 00:02:10,289
+ahora vamos hacer la etiqueta que va contener el contenido principal
+
+34
+00:02:10,350 --> 00:02:12,840
+de nuestra página web que es la etiqueta Main 
+
+35
+00:02:13,240 --> 00:02:15,990
+está etiqueta main a la vez va tener un section
+
+36
+00:02:16,540 --> 00:02:17,830
+una etiqueta section
+
+37
+00:02:18,560 --> 00:02:24,530
+que va contener un h2 que nos va indicar contenido de section
+
+38
+00:02:26,800 --> 00:02:28,690
+Ya dentro de la misma etiqueta section,
+
+39
+00:02:28,700 --> 00:02:30,190
+vamos a poner un artícle
+
+40
+00:02:34,800 --> 00:02:37,810
+article va contener un h2 que va a decir contenido
+
+41
+00:02:39,800 --> 00:02:40,540
+de article
+
+42
+00:02:43,610 --> 00:02:46,390
+y vamos hacer otra etiqueta que esta va ser footer
+
+43
+00:02:46,600 --> 00:02:48,700
+Qué es el pie de página y vamos a poner un h2
+
+44
+00:02:48,830 --> 00:02:53,090
+Contenido de footer
+
+45
+00:02:53,340 --> 00:02:57,960
+y bien, aquí semánticamente está correctamente estructurada nuestra página
+
+46
+00:02:58,680 --> 00:03:00,940
+y vamos a ver ahora como lo muestra en nuestro navegador
+
+47
+00:03:05,200 --> 00:03:09,390
+Podemos ver qué nos muestra todas nuestras elementos que colocamos
+
+48
+00:03:09,400 --> 00:03:11,890
+a dentro de cada etiqueta semántica y los muestras de
+
+49
+00:03:11,900 --> 00:03:14,690
+la misma forma como que si lo estuviéramos colocando solo
+
+50
+00:03:14,700 --> 00:03:16,590
+los elementos h2,
+
+51
+00:03:16,600 --> 00:03:21,590
+pero semánticamente en nuestro código está correctamente estructurado 
+
+52
+00:03:21,600 --> 00:03:23,170
+y esta es la forma que nosotros deberíamos de
+
+53
+00:03:23,320 --> 00:03:26,510
+hacer todo nuestro  para que tenga una buena legibilidad.
+
+54
+00:03:28,800 --> 00:03:33,890
+Cabe decir que el orden de nuestros elementos la ubicación,
+
+55
+00:03:33,900 --> 00:03:36,590
+eso lo podemos hacer con css,
+
+56
+00:03:36,600 --> 00:03:39,190
+pero para eso te necesitan llevar el curso de css.
+
+57
+00:03:40,500 --> 00:03:41,790
+Ya te estoy en este video,
+
+58
+00:03:41,800 --> 00:03:42,190
+gracias.
